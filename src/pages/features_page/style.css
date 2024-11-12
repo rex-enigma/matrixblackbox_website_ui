@@ -1,0 +1,188 @@
+#features_page {
+  margin-top: 100px;
+}
+
+.f_product_preview_description {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+  background-color: white;
+}
+
+/***********product image preview (start)***********/
+
+.f_product_preview {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1px;
+  flex-basis: 370px;
+}
+
+.f_previewImage_container {
+  border: 1px solid #79a942;
+  /* flex-basis: 370px; */
+  height: 545px;
+  margin-bottom: 10px;
+  background-color: #f6f6f6;
+}
+
+.f_thumbnail {
+  border: 1px solid #dedede;
+  height: 45px;
+  flex-basis: 59px;
+  margin-right: 8px;
+  cursor: pointer;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+.f_thumbnail:hover {
+  border: 1px solid black;
+}
+
+/***********product image preview (end)***********/
+
+.f_product_description {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 0px 10px 10px 10px;
+  flex-basis: 370px;
+}
+
+.f_description_h4 {
+  border-bottom: 1px solid #79a942;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: #79a942;
+}
+
+.f_first_paragraph {
+  margin-top: 0px;
+}
+
+.f_last_paragraph {
+  line-height: 22px;
+}
+
+.f_buy_button {
+  width: 277px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.72);
+  color: white;
+  text-decoration: none;
+  border-radius: 16px;
+  padding: 5px;
+  margin-left: auto;
+  margin-top: 5px;
+}
+
+.f_buy_button:hover {
+  background-color: #79a942;
+}
+
+.f_spec_title {
+  color: #79a942;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #79a942;
+}
+
+.hardware_specs_table td:first-child {
+  color: #79a942;
+}
+
+/* .hardware_specs_table td:last-child {
+  padding-left: 10%;
+} */
+
+/*******application features  (start)**************/
+
+.application_feature_list {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.f_feature_row {
+  display: flex;
+  justify-content: center;
+}
+
+.second.f_feature_row {
+  background-color: #ffe7d3;
+}
+
+.f_feature_row_wrapper {
+  display: flex;
+  text-align: center;
+  flex-basis: 840px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.f_feature_card {
+  flex: 1 1 33.333%;
+}
+
+.f_feature_card img {
+  width: 122px;
+  height: 122px;
+}
+
+.f_feature_title {
+  margin-bottom: 0px;
+}
+
+.f_feature_card p {
+  margin-top: 0px;
+  padding: 5px 20px;
+  line-height: 20px;
+}
+
+/*******application features (end)**************/
+
+/*****extra-info + social media links  (start)*********/
+
+/* .f_feature_extra_info_container {
+  border: 2px solid green;
+} */
+
+.f_feature_extra_info {
+  position: absolute;
+  color: white;
+  margin-left: 20%;
+}
+
+.f_feature_african_woman_matrix_image_container {
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  bottom: 0px;
+  z-index: -1;
+  background-color: black;
+}
+
+.f_feature_extra_info h2 {
+  color: yellow;
+}
+
+.f_feature_extra_info h3 {
+  background-color: #79a942;
+  margin: 0px 0px 8px 0px;
+  padding: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.f_feature_extra_info h3::before {
+  content: "•";
+}
+
+.f_feature_social_media_link img {
+  height: 45px;
+  width: 45px;
+}
+
+.f_feature_african_woman_matrix_image_container img {
+  height: 448px;
+}
+/*****extra-info + social media links (end)********/

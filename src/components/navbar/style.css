@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  background-color: black;
+  height: 40px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navbar_brand {
+  display: flex;
+  align-items: center;
+  flex: 2;
+  margin: 5px 15px 8px;
+}
+
+.navbar_logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar_logo :nth-child(2) {
+  color: white;
+}
+
+.navigators {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.navbar .link {
+  text-align: center;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+.link:hover {
+  color: #ffff00;
+}
+
+#portal_container {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  background-color: #79a942;
+}

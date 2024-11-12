@@ -1,0 +1,57 @@
+.c_container_wrapper {
+  margin-top: 15px;
+  margin-bottom: 150px;
+}
+
+.c_container {
+  /* border: 1px solid blue; */
+  background-color: white;
+  margin: 4px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+h4[data-h4title] {
+  /* border: 2px solid red; */
+  cursor: pointer;
+  margin: 0px;
+  transition: transform;
+  color: white;
+  background-color: #79a942;
+  flex-basis: 32px;
+
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px 4px 0px 0px;
+}
+
+h4[data-h4title]:hover {
+  transform: scale(1.009, 1.009);
+}
+
+.h4_opened {
+  background-color: black !important;
+  transform: scale(1.009, 1.009);
+}
+
+.h4_opened::before {
+  position: relative;
+  top: 4px;
+  content: url("assets/close_chat.png");
+}
+
+.h4_closed::before {
+  position: relative;
+  top: 4px;
+  content: url("assets/open_chat.png");
+}
+
+.content_container {
+  overflow: hidden;
+  transition: height 0.6s;
+}
+
+.c_paragraph {
+  padding: 10px 30px;
+  margin: 0px;
+}

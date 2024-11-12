@@ -1,0 +1,63 @@
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: black;
+  padding-bottom: 50px;
+}
+
+.f_item {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px 30px 30px;
+}
+
+.f_item p a {
+  text-decoration: none;
+  color: yellow;
+}
+
+.f_item p a:hover {
+  text-decoration: underline;
+}
+
+.f_download_item,
+.f_support_item,
+.f_business_item,
+.f_policies_item {
+  text-decoration: none;
+  color: white;
+}
+
+/* not good practice*/
+
+.f_download_item:hover,
+.f_support_item:hover,
+.f_business_item:hover,
+.f_policies_item:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+.footer_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 17px;
+}
+
+.footer_navbar_brand a {
+  color: white;
+}
+
+.f_matrixLogo_yellow {
+  display: none;
+}
+
+.footer_logo:hover .f_matrixLogo_white {
+  display: none;
+}
+
+.footer_logo:hover .f_matrixLogo_yellow {
+  display: block;
+}

@@ -1,0 +1,61 @@
+/*****customBarStart**************/
+.customBar_wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 536px;
+}
+
+.custom_container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+
+.custom_container .info {
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+}
+
+.customBar_wrapper #custom_info1 {
+  background-color: #79a942;
+}
+
+.customBar_wrapper #custom_info2 {
+  background-color: #393939;
+}
+
+.customBar_wrapper h1 {
+  margin: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.customBar_wrapper h2 {
+  margin: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.customBar_wrapper h5 {
+  margin: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.customBar_wrapper h6 {
+  margin: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#anchor_button:hover {
+  cursor: pointer;
+}
+
+#anchor_button {
+}
+/*****customBarEnd**************/

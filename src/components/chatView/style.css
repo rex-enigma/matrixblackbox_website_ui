@@ -1,0 +1,150 @@
+.comp_chatContainer {
+  position: fixed;
+  bottom: 0px;
+  right: 60px;
+  z-index: 1000;
+  max-width: 290px;
+}
+
+.comp_chatTitle_img {
+  display: flex;
+  cursor: pointer;
+  border-radius: 5px 5px 0px 0px;
+  padding: 6px 0px 6px 0px;
+  color: white;
+}
+
+.comp_chatTitle_img img {
+  height: 20px;
+  width: 20px;
+}
+
+.comp_chatTitle_img h5 {
+  cursor: pointer;
+  margin: 4px 0px;
+  padding-left: 4px;
+}
+
+.comp_chatProfile {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.63);
+  color: white;
+}
+
+.comp_chatProfile img {
+  width: 59px;
+  height: 59px;
+  margin: 6px;
+  padding-left: 4px;
+}
+.comp_chatProfile h6 {
+  margin: 0px;
+  padding: 15px 0px 0px 4px;
+}
+
+.comp_chatProfile h6 {
+  margin: 0px;
+  padding: 15px 0px 0px 0px;
+  font-size: 13px;
+}
+
+.comp_chatProfile p {
+  margin: 0px;
+  font-size: 12px;
+}
+
+.comp_chatTextContainer {
+  display: flex;
+  padding: 3px 25px 0px 10px;
+  height: 200px;
+}
+
+.comp_chatText {
+  background-color: white;
+  border-radius: 0px 0px 12px 12px;
+  padding: 14px 8px 40px 10px;
+  max-height: 50px;
+}
+
+.comp_chatText p {
+  margin: 0px;
+  color: #79a942;
+}
+
+.comp_chatTextContainer img {
+  width: 14px;
+  height: 14px;
+  margin-right: 1px;
+}
+
+.comp_closedChat {
+  background-color: #79a942;
+}
+
+.comp_openedChat {
+  background-color: rgb(0, 0, 0);
+}
+
+.comp_chatBody {
+  transition: height 0.6s;
+  overflow: hidden;
+  background-image: url("assets/172356_whatsapp-wallpaper-u12990-fr.png");
+  border-bottom-left-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.377);
+}
+
+.comp_socialMediaContainer {
+  background-color: rgba(0, 0, 0, 0.63);
+  padding: 8px 10px;
+  border-bottom-left-radius: 8px;
+  border-right: 1px solid rgba(255, 255, 255, 0.171);
+  border-left: 1px solid rgba(255, 255, 255, 0.171);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  position: relative;
+  top: 7px;
+}
+
+.comp_sm_linkContainer {
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+
+.comp_sm_linkContainer div {
+  display: flex;
+  align-items: center;
+}
+
+.comp_smImg {
+  margin-right: 1px;
+  padding: 0px 5px;
+  border-radius: 12px 0px 0px 12px;
+}
+
+.comp_sm_link {
+  border-radius: 0px 0px 12px 0px;
+}
+
+.comp_sm_whatsap {
+  margin-bottom: 5px;
+}
+
+.comp_sm_whatsap img {
+  background-color: #3bba27;
+}
+
+.comp_sm_telegram img {
+  background-color: #2eace5;
+}
+
+.comp_sm_whatsap div {
+  background-color: #3bba27;
+  padding: 0px 10px 0px 10px;
+}
+
+.comp_sm_telegram div {
+  background-color: #2eace5;
+  padding: 0px 18px 0px 10px;
+}

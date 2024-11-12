@@ -1,0 +1,114 @@
+.resourcesPage {
+  margin-top: 80px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.r_main_section {
+  display: flex;
+  flex-flow: column wrap;
+  flex-basis: 600px;
+  padding-bottom: 20px;
+  /* position: relative; */ /* the z-index works without this div being positioned,not sure why*/
+  z-index: 1;
+}
+
+.r_title {
+  text-align: center;
+  color: #79a942;
+  border-bottom: 1px solid #79a942;
+}
+
+.r_brandingMedia_materials {
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.r_zip_container {
+  flex: 1 1 33.33%;
+  text-align: center;
+}
+
+.r_zip_container h5 {
+  margin-top: 5px;
+  padding: 2px;
+  color: #79a942;
+}
+
+.r_iotmbImageContainer {
+  padding-top: 4px;
+  border-top: 1px solid #79a942;
+  border-bottom: 1px solid #79a942;
+}
+
+.r_title_manuals {
+  color: #79a942;
+  text-align: center;
+  border-bottom: 1px solid #79a942;
+}
+.r_title_manuals h5 {
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
+.r_manual_container {
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.r_side_bar {
+  width: 160px;
+  position: fixed;
+  right: 0px;
+  top: 40px;
+  z-index: 1;
+  text-align: center;
+  color: #79a942;
+  padding-right: 50px;
+}
+
+.r_side_bar h5 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #79a942;
+  margin-bottom: 15px;
+}
+
+.r_socialLinkImgContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.r_socialLinkImg {
+  height: 31px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.r_socialLinkImg img:hover {
+  position: relative;
+  top: -32px;
+}
+
+.r_socialLinkButtonsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.r_anchorButton {
+  text-decoration: none;
+  color: white;
+  background-color: #474747;
+  padding: 6px 6px;
+  margin: 5px 5px;
+  border-radius: 14px;
+}
+
+.r_anchorButton:hover {
+  background-color: #79a942;
+}

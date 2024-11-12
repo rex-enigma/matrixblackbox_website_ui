@@ -1,0 +1,82 @@
+.businessPage {
+  margin-top: 40px;
+}
+
+.business_teamImage_container {
+  display: flex;
+  justify-content: center;
+  background-color: #fd970e;
+}
+
+.business_teamImage {
+  height: 445px;
+}
+
+.business_invest_para {
+  position: absolute;
+  top: 10.9%;
+  left: 56%;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+.business_social_media_links_container {
+  display: flex;
+  justify-content: center;
+  background-color: #333333;
+}
+
+.business_social_media_links {
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 500px;
+}
+
+.business_social_media_links img {
+  width: 66px;
+  height: 68px;
+}
+
+.business_facebook_image:hover {
+  background-image: url("assets/facebook_matrix_blackbox_tracker_that_can eavesdropp_hardware_kenya_kevin2-u14422-r-fr.png");
+}
+
+.business_twitter_image:hover {
+  background-image: url("assets/twitter_matrix_blackbox_tracker_that_can eavesdropp_hardware_kenya_kevin2-u14426-r-fr.png");
+}
+
+.business_youtube_image:hover {
+  background-image: url("assets/google_plus_matrix_blackbox_tracker_that_can eavesdropp_hardware_kenya_kevin2-u14424-r-fr.png");
+}
+
+.business_googleMap_image:hover {
+  background-image: url("assets/google_plus_matrix_blackbox_tracker_that_can eavesdropp_hardware_kenya_kevin2-u14424-r-fr.png");
+}
+
+.business_section_info_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0px 20px 0px;
+}
+
+.business_section_info_wrapper {
+  border: 1px solid blue;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.business_section {
+  width: 570px;
+  line-height: 22px;
+}
+
+.business_section h4 {
+  color: #79a942;
+  text-align: center;
+}
+
+.business_section div {
+  border-top: 1px solid #79a942;
+}

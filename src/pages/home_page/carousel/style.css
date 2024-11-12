@@ -1,0 +1,61 @@
+#slider-container-outer {
+  /* border: 1px solid red; for visual testing */
+  overflow: hidden;
+  display: flex;
+  flex-flow: row wrap;
+  position: fixed;
+  top: 40px;
+  z-index: -2;
+}
+
+#slider-container {
+  /* border: 2px solid yellow; */
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.slider-item {
+  width: 100%;
+  flex-shrink: 0;
+  display: flex;
+}
+
+.image {
+  /* border: 1px solid green; for visual testing */
+  width: 100%;
+  object-fit: cover;
+  height: 496px;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  position: absolute;
+  top: 96%;
+}
+
+/*if you want the next button to be aligned on the left(this one works if the parent container is a flexbox)
+/* .buttons #move-next {
+  margin-left: auto;
+} */
+
+.button {
+  border: none;
+  background-color: ghostwhite;
+  border-radius: 2px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #79a942;
+}
+
+.slider-container-transition {
+  transition: transform 0.7s ease-in-out;
+}
+
+.slider-container-transition-instant {
+  transition: transform 0.01s;
+}

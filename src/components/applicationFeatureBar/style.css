@@ -1,0 +1,9 @@
+.comp_feature_title {
+  border-top: 2px solid #79a942;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #393939;
+  height: 80px;
+  color: white;
+}
